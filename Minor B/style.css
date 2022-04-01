@@ -1,0 +1,372 @@
+@font-face{
+    font-family: 'fira-sans';
+    src: url(font/FiraSans-MediumItalic.ttf);
+}
+*{
+    font-family: 'fira-sans';
+    margin: 0;
+    color: rgb(92, 60, 60);
+}
+body{
+    background-color: #e5ddce;
+}
+.container{
+    height: 100vh;
+}
+.container div{
+    margin-bottom: 10px;
+}
+.navbar{
+    background-color: #d8c49f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style: none;
+}
+#logo{
+    background-color: #d8c49f;
+    float: left;
+}
+#logo a:hover{
+    background-color: #d8c49f;
+}
+.navbar a{
+    background-color: #d8c49f;
+    display: block;
+    color: #5c3c3c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background: #e5ddce;
+    color: #5c3c3c;
+}
+.nav{
+    float: right;
+}
+.title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
+}
+#short-des{
+    font-weight: lighter;
+}
+input[type=submit]{
+    background-color: #d8c49f;
+    color: #5c3c3c;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type=submit]:hover{
+    color: #5c3c3c;
+    background-color: #e5ddce;
+}
+.word{
+    position: relative;
+    left: 30%;
+    bottom: 100px;
+    font-size: 5em;
+}
+
+/* feat */
+.feat{
+    margin: 0 200px 80px 200px;
+    text-align: center;
+}
+.features-title{
+    font-size: 4em;
+    text-align: left;
+}
+.feature-des{
+    float: right;
+}
+.feature-img{
+    display: inline-block;
+    text-align: center;
+}
+.sample-pictures{
+    display: inline-block;
+}
+
+/* gallery */
+.gallery{
+    background-color: #d8c49f;
+    margin: 0 200px 0 200px;
+    padding: 30px;
+    height: 2100px;
+}
+.gallery-title{
+    background-color: #d8c49f;
+    font-size: 4em;
+    text-align: left;
+}
+.extradiv{
+    background-color: #d8c49f;
+    height: 2000px;
+}
+.zigzagA{
+    height: 600px;
+    background-color: #d8c49f;
+    margin: 0 200px 0 200px;
+}
+.zigzagB{
+    height: 600px;
+    background-color: #d8c49f;
+    margin: 0 200px 0 200px;
+}
+.zigzagC{
+    height: 600px;
+    background-color: #d8c49f;
+    margin: 0 200px 0 200px;
+}
+.picleft{
+    float: left;
+}
+.gallery-right{
+    background-color: #d8c49f;
+    margin-top: 170px;
+    width: 450px;
+    float: right;
+    text-justify: auto;
+}
+.picright{
+    float: right;
+    
+}
+.gallery-left{
+    background-color: #d8c49f;
+    margin-top: 200px;
+    width: 450px;
+    float: left;
+    text-justify: auto;
+}
+.picleftA{
+    float: left;
+}
+.gallery-rightA{
+    background-color: #d8c49f;
+    margin-top: 200px;
+    width: 450px;
+    float: right;
+    text-justify: auto;
+}
+.word-gall{
+    position: relative;
+    left: 83%;
+    bottom: 87px;
+    font-size: 5em;
+}
+
+/* about-us */
+.aboutus{
+    margin: 0 200px 0 200px;
+    padding: 30px;
+}
+.aboutus-title{
+    font-size: 4em;
+    text-align: left;
+}
+.aboutus-box{    
+    margin: 0 200px 0 200px;
+    height: 400px;
+}
+.img-team{
+    float: left;
+}
+.aboutus-word{
+    width: 450px;
+    float: right;
+    text-justify: auto;
+    margin-top: 20px;
+}
+
+/* contact-us */
+.contactus{
+    margin: 0 200px 0 200px;
+    padding: 30px;
+    height: 600px;
+}
+.contactus-title{
+    font-size: 4em;
+    text-align: left;
+}
+.contactus-box{
+    margin: 0 300px 0 300px;
+}
+input[type=text], textarea{
+    background-color: #e5ddce;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #5c3c3c;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: #d8c49f;
+    color: #5c3c3c;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'fira-sans';
+    font-size: 20px;
+}
+input[type=submit]:hover{
+    color: #5c3c3c;
+}
+
+/* footer */
+.footer{
+    padding-bottom: 70px;
+}
+.copyright{
+    text-align: center;
+}
+
+/* rwp css */
+@media screen and (max-width:500px) {
+    .container{
+        height: 3100px;
+    }
+    .navbar{
+        height: 50px;
+        float: inline-start;
+    }
+    .nav{
+        text-align: center;
+        position: relative;
+        background-color: #e5ddce;
+    }
+    .title{
+        grid-column: 1/4;
+    }
+    #iframe{
+        margin: auto;
+        width: 400px;
+        height: 450px;
+    }
+    #word{
+        font-size: 2em;
+        left: 25%;
+        bottom: 50px;
+    }
+
+    /* features rwd css */
+    .feat{
+        text-align: center;
+    }
+    .feature-des{
+        text-align: center;
+    }
+    #sunnies{
+        font-size: 1.5em;
+    }
+    #features{
+        text-align: center;
+        margin: auto;
+    }
+
+    /* gallery */
+    .gallery{
+        margin: auto;
+        height: 2150px;
+    }
+    #galleryA{
+        margin: auto;
+    }
+    #extradiv{
+        text-align: center;
+    }
+    .zigzagA{
+        margin: auto;
+        text-align: center;
+    }
+    .picleft{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .gallery-right{
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .zigzagB{
+        margin: auto;
+        text-align: center;
+    }
+    .picright{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .gallery-left{
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .zigzagC{
+        margin: auto;
+        text-align: center;
+    }
+    .picleftA{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .gallery-rightA{
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .word-gall{
+        font-size: 2em;
+        bottom: 50px;
+    }
+
+    /* about us */
+    .aboutus{
+        margin: auto;
+    }
+    .aboutus-box{
+        margin: 0;
+    }
+    .img-team{
+        float: none;
+        margin-left: 15px;
+    }
+    .img-team > img{
+        width: 400px;
+    }
+    .aboutus-word{
+        text-align: justify;
+        float: none;
+    }
+
+    /* contact us */
+    .contactus{
+        margin: auto;
+        height: 450px;
+        margin-top: 10px;
+    }
+    .contactus-title{
+        margin-top: 200px;
+    }
+    .contactus-box{
+        margin: auto;
+    }
+
+    /* footer */
+    .footer{
+        margin-top: 400px;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
